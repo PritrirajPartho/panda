@@ -554,38 +554,95 @@ video {
   --tw-contain-style:  ;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.bg-video {
+  position: fixed;
 }
 
-.text-center {
-  text-align: center;
+.h-\[5vw\] {
+  height: 5vw;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.h-\[2vw\] {
+  height: 2vw;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.h-\[4vw\] {
+  height: 4vw;
 }
 
-.font-bold {
-  font-weight: 700;
+.h-\[10vw\] {
+  height: 10vw;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.w-\[80vw\] {
+  width: 80vw;
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+.w-\[100vw\] {
+  width: 100vw;
 }
 
-.underline {
-  text-decoration-line: underline;
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+/* Start styling below */
+
+/* You should write your base class here. like h1,h2,p etc */
+
+/* Please write here your custom components here */
+
+/* You can make your own utilities class here. Let's go... */
+
+@media (min-width: 640px) {
+  .sm\:h-\[10vw\] {
+    height: 10vw;
+  }
+
+  .sm\:h-\[5vw\] {
+    height: 5vw;
+  }
+
+  .sm\:h-\[3vw\] {
+    height: 3vw;
+  }
+
+  .sm\:h-\[4vw\] {
+    height: 4vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:h-\[10vw\] {
+    height: 10vw;
+  }
+
+  .md\:h-\[7vw\] {
+    height: 7vw;
+  }
+
+  .md\:h-\[4vw\] {
+    height: 4vw;
+  }
+
+  .md\:h-\[5vw\] {
+    height: 5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-\[10vw\] {
+    height: 10vw;
+  }
+
+  .lg\:h-\[5vw\] {
+    height: 5vw;
+  }
 }

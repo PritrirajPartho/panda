@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+/* Start styling below */
+
+/* You should write your base class here. like h1,h2,p etc */
+@layer base{
+
+}
+
+/* Please write here your custom components here */
+@layer components{
+    .bg-video{
+        @apply fixed;
+    }
+}
+
+/* You can make your own utilities class here. Let's go... */
+@layer utilities {
+
+}
