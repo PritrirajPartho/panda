@@ -9,15 +9,23 @@
   <!-- Header is here  -->
   <header>
     <!-- Navbar is below -->
-    <section class="bg-slate-200 w-[100vw] h-[10vw] sm:h-[4vw] md:h-[5vw] lg:h-[5vw]">
+    <section class="bg-white w-[100vw] h-[10vw] sm:h-[8vw] md:h-[6vw] lg:h-[5vw]">
       <nav>
         <img src="../public/logo.png" alt="Logo" srcset="">
       </nav>
     </section>
     <!-- video header is below  -->
-    <video class="bg-video" autoplay muted loop>
-      <source src="../public/background-video.mp4" type="video/mp4">
-    </video>
+    <div class="videowrapper">
+      <div class="fullscreen-div">
+        <video class="bg-video relative" autoplay muted loop>
+          <source src="../public/background-video.mp4" type="video/mp4">
+        </video>
+        <div id="videoMessage" class="content">
+          <p>Food is not rational. Food is culture, habit, craving, and identity.</p>
+          <p class="text-2xl">(Jonathan Safran...)</p>
+        </div>
+      </div>
+    </div>
   </header>
   <!-- Below is JS Script -->
 

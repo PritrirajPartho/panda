@@ -558,37 +558,37 @@ video {
   position: fixed;
 }
 
-.h-\[5vw\] {
-  height: 5vw;
-}
+/* .content{
+        @apply absolute top-11 bg-[rgba(0, 0, 0, 0.5)] text-white p-[20px] w-100;
+    } */
 
-.h-\[2vw\] {
-  height: 2vw;
-}
-
-.h-\[4vw\] {
-  height: 4vw;
+.relative {
+  position: relative;
 }
 
 .h-\[10vw\] {
   height: 10vw;
 }
 
-.w-\[80vw\] {
-  width: 80vw;
-}
-
 .w-\[100vw\] {
   width: 100vw;
 }
 
-.bg-slate-200 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 *{
   box-sizing: border-box;
+}
+
+.body{
   margin:0;
   padding: 0;
 }
@@ -601,47 +601,53 @@ video {
 
 /* You can make your own utilities class here. Let's go... */
 
+/* VANILA CSS*/
+
+.videowrapper{
+  position: relative;
+  overflow: hidden;
+  max-width: 100vw;
+}
+
+.fullscreen-div{
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  padding:0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#videoMessage{
+  color: rgb(249, 249, 249);
+  width: 80%;
+  height: 60%;
+  padding: 5vw;
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  background-color: rgb(47, 41, 41);
+  opacity: 0.5;
+  font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 640px) {
-  .sm\:h-\[10vw\] {
-    height: 10vw;
-  }
-
-  .sm\:h-\[5vw\] {
-    height: 5vw;
-  }
-
-  .sm\:h-\[3vw\] {
-    height: 3vw;
-  }
-
-  .sm\:h-\[4vw\] {
-    height: 4vw;
+  .sm\:h-\[8vw\] {
+    height: 8vw;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:h-\[10vw\] {
-    height: 10vw;
-  }
-
-  .md\:h-\[7vw\] {
-    height: 7vw;
-  }
-
-  .md\:h-\[4vw\] {
-    height: 4vw;
-  }
-
-  .md\:h-\[5vw\] {
-    height: 5vw;
+  .md\:h-\[6vw\] {
+    height: 6vw;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-\[10vw\] {
-    height: 10vw;
-  }
-
   .lg\:h-\[5vw\] {
     height: 5vw;
   }
